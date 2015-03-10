@@ -1,4 +1,6 @@
 <?php
+//start session for session variables
+session_start();
 
 //this checks to see if this script is receiving data from the form
 //if it isn't, there isn're really anything to do here.
@@ -47,15 +49,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // simultaneously send the sql string to the database via the connection object,
     // and check to see if it succeeded
     if ($conn->query($sql) === TRUE) {
+        
         // it succeeded so display a success message
         $id = $conn->insert_id;
-        echo "New record created successfully. ID: " . $id;
+        $_SESSION["message"] = "New record created successfully. ID: " . $id;
+    
+        
     } else {
         // it failed.
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        $_SESSION["message"] = "Error: " . $sql . "<br>" . $conn->error;
+
     }
     
     //close the connection
     $conn->close();
+    
+    header('Location: /index.php');
 
 }

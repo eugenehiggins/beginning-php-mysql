@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<?php $action = "add-record"; ?>
-<?php include ('html-form-part.php'); ?>
+    
+    <!-- set the action for the page -->
+
+    <!-- include the form partial -->
+    
+    
 </body>
 </html>
