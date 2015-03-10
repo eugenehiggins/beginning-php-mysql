@@ -14,13 +14,22 @@ session_start();
     <body>
         <div class="dark-matter">
             
-            
             <h1>Actions:</h1>
-            
+            <div id="status">
+            <?php   // include the code that allows the return message from the database
+                    // to display.?>
             <?php include ('status.php') ?>
-           
+           </div>
             <a href="day-1/create-record/add-record-form.php" target="_self">Add new customer</a>
         
         </div>
+        <?php 
+        $a = 1;
+        $b = 2;
+        $d = "dog";
+        $c = $b + $d;
+        $e = "cat";
+        echo $d.$e.$a;
+        ?>
     </body>
 </html>

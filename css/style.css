@@ -97,3 +97,16 @@
     background-color: #EBEBEB;
 }
 
+.dark-matter #message {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: white;
+    opacity: 0.5;
+    color: red;
+    padding: 3px 10px 3px 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.dark-matter #status {
+    height: 40px;
+}
