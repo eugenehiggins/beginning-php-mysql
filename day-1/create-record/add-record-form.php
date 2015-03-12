@@ -10,10 +10,10 @@
 <body>
     
     <!-- set the action for the page -->
-    <?php $action = "add-record"; ?>
+    
     
     <!-- include the form partial -->
-    <?php include ('html-form-part.php'); ?>
+    
     
 </body>
 </html>
