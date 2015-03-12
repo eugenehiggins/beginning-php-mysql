@@ -11,10 +11,10 @@ $username   =   "genehiggins";
 $password   =   "";
 $dbname     =   "classicmodels";
 */
-$servername =   "eugenehiggins-beginning-php-mysql-1321467";
-$username   =   "eugenehiggins";
+$servername =   "";
+$username   =   "";
 $password   =   "";
-$dbname     =   "classicmodels";
+$dbname     =   "";
 
 // Create a connection object
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -27,9 +27,7 @@ if ($conn->connect_error) {
 } 
 
 // the sql string
-$sql = "SELECT  `customerNumber` ,  `contactLastName` ,  `contactFirstName` ,  `state` ,  `phone` 
-            FROM  `customers` 
-            LIMIT 0 , 30";
+//$sql = "";
 
 // simultaneously send the sql string to the database via the connection object,
 // and check to see if it succeeded
@@ -60,17 +58,17 @@ $result = $conn->query($sql);
                      <th>Phone</th>
                  </tr>
              <?php 
-                 if ($result->num_rows > 0) {
-                    
+                //figure out if the query result has more than zero rows
+
                     // output data of each row
-                    while($row = $result->fetch_assoc()) {
-                        echo "<tr><td>".$row["customerNumber"]."</td><td>".$row["contactLastName"]."</td><td>".$row["contactFirstName"]."</td><td>".$row["state"]."</td><td>".$row["phone"]."</td></tr>";
-                    }
-                    
-                    
-                 } else {
-                     echo "There were no results";
-                 }
+                    //create a loop that will run code on each row in returned data
+
+                        //print out the combined html and php for each record
+
+
+                 //if the query result had no rows 
+                     //print a consolation message
+
              ?>
              </table>
         
@@ -79,6 +77,6 @@ $result = $conn->query($sql);
 </html>
 
 <?php
+//not a bad idea to close out the transaction
 $result->close();
-
 ?>
