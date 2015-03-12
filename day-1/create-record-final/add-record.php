@@ -34,7 +34,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $dbname     =   "classicmodels";
     */
     $servername =   "eugenehiggins-beginning-php-mysql-1321467";
-    //$servername = getenv('IP');
     $username   =   "eugenehiggins";
     $password   =   "";
     $dbname     =   "classicmodels";
