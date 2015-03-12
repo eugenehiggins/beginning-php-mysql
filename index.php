@@ -20,7 +20,9 @@ session_start();
                     // to display.?>
             <?php include ('status.php') ?>
            </div>
-            <a href="day-1/create-record/add-record-form.php" target="_self">Add new customer</a>
+            <p><a href="day-1/create-record/add-record-form.php" target="_self">Add new customer</a></p>
+            <p><a href="day-2/final/select-multiple-with-links.php" target="_self">Retrieve customer list</a></p>
+            <p><a href="day-2/final/select-single.php?id=129" target="_self">Retrieve single customer</a></p>
         
         </div>
     </body>
