@@ -23,13 +23,5 @@ session_start();
             <a href="day-1/create-record/add-record-form.php" target="_self">Add new customer</a>
         
         </div>
-        <?php 
-        $a = 1;
-        $b = 2;
-        $d = "dog";
-        $c = $b + $d;
-        $e = "cat";
-        echo $d.$e.$a;
-        ?>
     </body>
 </html>
