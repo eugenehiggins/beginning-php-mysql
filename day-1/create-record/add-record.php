@@ -2,23 +2,11 @@
 
 //check to see if we're receiving post data
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //initialize our variables
-    $contactLastName = $contactFirstName = $phone = $email =  $addressLine1 = 
-        $addressLine2 = "";
 
    //assign the post data to individual variables
     
-    $contactLastName    =   $_POST["contactLastName"];
-    $contactFirstName   =   $_POST["contactFirstName"];
-    $phone              =   $_POST["phone"];
-    $email              =   $_POST["email"];
-    $addressLine1       =   $_POST["addressLine1"];
-    $addressLine2       =   $_POST["addressLine2"];
-    $city               =   $_POST["city"];
-    $state              =   $_POST["state"];
-    $postalCode         =   $_POST["postalCode"];
-   
+
     /*
     //create the connection to the database
     //get these values from https://docs.c9.io/v1.0/docs/setting-up-mysql
@@ -30,10 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password   =   "";
     $dbname     =   "classicmodels";
     */
-    $servername =   "eugenehiggins-beginning-php-mysql-1321467";
-    $username   =   "eugenehiggins";
+    $servername =   "";
+    $username   =   "";
     $password   =   "";
-    $dbname     =   "classicmodels";
+    $dbname     =   "";
     
     // Create a connection object
 
@@ -52,4 +40,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //close the connection
 
 
-}
+//don't forget closing bracket!
+//?
