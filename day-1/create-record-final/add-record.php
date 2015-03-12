@@ -22,8 +22,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $state              =   $_POST["state"];
     $postalCode         =   $_POST["postalCode"];
    
+    /*
     //create the connection to the database
     //get these values from https://docs.c9.io/v1.0/docs/setting-up-mysql
+    //run `mysql-ctl cli`
+    //run `select @@hostname;`
+    //don't forget the semicolon after @@hostname
+    $servername =   "genehiggins-beginning-php-mysql-1338783";
+    $username   =   "genehiggins";
+    $password   =   "";
+    $dbname     =   "classicmodels";
+    */
     $servername =   "eugenehiggins-beginning-php-mysql-1321467";
     //$servername = getenv('IP');
     $username   =   "eugenehiggins";
