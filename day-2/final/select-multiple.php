@@ -27,7 +27,7 @@ if ($conn->connect_error) {
 } 
 
 // the sql string
-$sql = "SELECT  `customerNumber` ,  `contactLastName` ,  `contactFirstName` ,  `email` ,  `phone` 
+$sql = "SELECT  `customerNumber` ,  `contactLastName` ,  `contactFirstName` ,  `state` ,  `phone` 
             FROM  `customers` 
             LIMIT 0 , 30";
 
@@ -67,7 +67,7 @@ $result = $conn->query($sql);
                     
                     // output data of each row
                     while($row = $result->fetch_assoc()) {
-                        echo "<tr><td>".$row["customerNumber"]."</td><td>".$row["contactLastName"]."</td><td>".$row["contactFirstName"]."</td><td>".$row["email"]."</td><td>".$row["phone"]."</td></tr>";
+                        echo "<tr><td>".$row["customerNumber"]."</td><td>".$row["contactLastName"]."</td><td>".$row["contactFirstName"]."</td><td>".$row["state"]."</td><td>".$row["phone"]."</td></tr>";
                     }
                     
                     
