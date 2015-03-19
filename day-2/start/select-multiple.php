@@ -54,7 +54,7 @@ $result = $conn->query($sql);
                      <th>ID</th>
                      <th>Last Name</th>
                      <th>First Name</th>
-                     <th>Email</th>
+                     <th>State</th>
                      <th>Phone</th>
                  </tr>
              <?php 

@@ -42,7 +42,7 @@
     margin-top: 10px;
     font-weight: bold;
 }
-.dark-matter input[type="text"], .dark-matter input[type="email"], .dark-matter textarea, .dark-matter select {
+.dark-matter input[type="text"], .dark-matter input[type="password"], .dark-matter input[type="email"], .dark-matter textarea, .dark-matter select {
     border: none;
     color: #525252;
     height: 25px;
@@ -114,6 +114,10 @@
     width: 100%;
 }
 
+th {
+    text-align:left;
+}
+
 td.data{
     background-color: #878787;
     color: #ffffff;
@@ -122,4 +126,5 @@ td.data{
 td.label{
     text-align: right;
     padding-right: 5px;
+    width: 50%;
 }

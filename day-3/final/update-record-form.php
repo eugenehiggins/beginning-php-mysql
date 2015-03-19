@@ -16,9 +16,9 @@ if ($conn->connect_error) {
 } 
 
 // the sql string
-$sql = "SELECT  `customerNumber` ,  `contactLastName` ,  `contactFirstName` ,  `phone` ,  `addressLine1` ,  `addressLine2` ,  `city` ,  `state` ,  `postalCode` ,  `country` 
-        FROM  `customers` 
-        WHERE  `customerNumber` =".$_GET['id']; //try $_GET['ID']
+$sql = "SELECT  customerNumber ,  contactLastName ,  contactFirstName ,  phone ,  addressLine1 ,  addressLine2 ,  city ,  state ,  postalCode ,  country 
+        FROM  customers 
+        WHERE  customerNumber =".$_GET['id']; //try $_GET['ID']
         
         
 // simultaneously send the sql string to the database via the connection object,
