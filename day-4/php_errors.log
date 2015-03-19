@@ -1,0 +1,49 @@
+[19-Mar-2015 02:01:54 UTC] PHP Notice:  Undefined index: userID in /home/ubuntu/workspace/day-4/final/index.php on line 6
+[19-Mar-2015 02:01:54 UTC] PHP Warning:  include(status.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/day-4/final/index.php on line 28
+[19-Mar-2015 02:01:54 UTC] PHP Warning:  include(): Failed opening 'status.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/day-4/final/index.php on line 28
+[19-Mar-2015 02:02:19 UTC] PHP Warning:  include(status.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/day-4/final/index.php on line 28
+[19-Mar-2015 02:02:19 UTC] PHP Warning:  include(): Failed opening 'status.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/day-4/final/index.php on line 28
+[19-Mar-2015 02:02:40 UTC] PHP Warning:  include(status.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/day-4/final/index.php on line 25
+[19-Mar-2015 02:02:40 UTC] PHP Warning:  include(): Failed opening 'status.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/day-4/final/index.php on line 25
+[19-Mar-2015 02:04:34 UTC] PHP Warning:  include(/status.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/day-4/final/index.php on line 25
+[19-Mar-2015 02:04:34 UTC] PHP Warning:  include(): Failed opening '/status.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/day-4/final/index.php on line 25
+[19-Mar-2015 02:06:52 UTC] PHP Warning:  include(/status.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/day-4/final/index.php on line 28
+[19-Mar-2015 02:06:52 UTC] PHP Warning:  include(): Failed opening '/status.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/day-4/final/index.php on line 28
+[19-Mar-2015 02:39:31 UTC] PHP Warning:  include_once(/credentials.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/day-4/final/login.php on line 10
+[19-Mar-2015 02:39:31 UTC] PHP Warning:  include_once(): Failed opening '/credentials.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/day-4/final/login.php on line 10
+[19-Mar-2015 02:39:31 UTC] PHP Notice:  Undefined variable: sql in /home/ubuntu/workspace/day-4/final/login.php on line 11
+[19-Mar-2015 03:36:10 UTC] PHP Notice:  Undefined index: email in /home/ubuntu/workspace/day-4/final/login.php on line 16
+[19-Mar-2015 03:36:10 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/day-4/final/login.php on line 22
+[19-Mar-2015 03:37:03 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/day-4/final/login.php on line 22
+[19-Mar-2015 04:08:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:08:41 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:09:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:09:09 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:09:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:09:23 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:09:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:09:39 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:10:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:10:40 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:11:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:11:51 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:12:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:12:08 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:12:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:12:26 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:12:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:12:46 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:12:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:12:57 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:15:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ubuntu/workspace/checkTimeout.php on line 2
+[19-Mar-2015 04:15:55 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 9
+[19-Mar-2015 04:22:30 UTC] PHP Notice:  Undefined variable: _session in /home/ubuntu/workspace/checkTimeout.php on line 12
+[19-Mar-2015 04:27:38 UTC] PHP Notice:  Undefined index: timeout in /home/ubuntu/workspace/checkTimeout.php on line 12
+[19-Mar-2015 05:05:26 UTC] PHP Notice:  Undefined index: id in /home/ubuntu/workspace/day-4/final/select-single.php on line 35
+[19-Mar-2015 05:05:26 UTC] PHP Notice:  Trying to get property of non-object in /home/ubuntu/workspace/day-4/final/select-single.php on line 57
+[19-Mar-2015 05:05:26 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/ubuntu/workspace/day-4/final/select-single.php on line 113
+[19-Mar-2015 05:25:37 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/day-4/final/index.php on line 3
+[19-Mar-2015 05:25:55 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/day-4/final/index.php on line 3
+[19-Mar-2015 05:54:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/day-4/final/delete-record.php on line 9
+[19-Mar-2015 06:15:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/day-4/final/delete-record.php on line 9
+[19-Mar-2015 06:21:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/day-4/final/delete-record.php on line 9
